@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.abc_connected.MainActivity">
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1"
+        android:text="ABC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/signUpPageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F1F1F1"
+        android:text="bem_vindo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/welcomeSignInButton"
+            android:layout_width="135dp"
+            android:layout_height="108dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="12dp"
+            android:text="sign_in"
+            tools:text="sign_in" />
+
+        <Button
+            android:id="@+id/welcomeSignUpButton"
+            android:layout_width="163dp"
+            android:layout_height="94dp"
+            android:layout_above="@id/welcomeSignInButton"
+            android:layout_centerInParent="true"
+            android:text="sign_up"
+            tools:text="sign_up" />
+    </RelativeLayout>
+
+</LinearLayout>
