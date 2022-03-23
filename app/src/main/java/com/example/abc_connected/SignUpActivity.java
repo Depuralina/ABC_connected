@@ -21,7 +21,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
-//ola malta
+//ola malta pp
 public class SignUpActivity extends AppCompatActivity {
 
     private static final String TAG = "SignUpActivity";
